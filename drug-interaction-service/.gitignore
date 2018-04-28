@@ -16,8 +16,6 @@
 *.iml
 *.ipr
 .idea/
-.cmd
-mvnw
 
 ### NetBeans ###
 /nbproject/private/
