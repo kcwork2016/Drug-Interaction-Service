@@ -35,3 +35,14 @@ generated
 .classpath
 .project
 .springbeans
+
+build/Number.properties
+
+# Generated files
+target/
+generated
+*.class
+.log
+.DS_Store
+pom.xml.tag
+.mvn/timing.properties
