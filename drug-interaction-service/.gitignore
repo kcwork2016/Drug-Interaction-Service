@@ -1,0 +1,60 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Generated files
+target
+generated
+
+# Eclipse
+.metadata
+.settings
+.classpath
+.project
+.springbeans
+/bin/
+*~
+*.iml
+.settings
+.classpath
+
+
+build/Number.properties
+
+# Generated files
+target/
+generated
+*.class
+.log
+.DS_Store
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
