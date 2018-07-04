@@ -7,8 +7,10 @@ import lombok.AllArgsConstructor;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Food {
-    private int foodKey;
-    private String name;
-    private String type;
+public class Person {
+    private int personkey;
+    private String personId;
+    private String firstName;
+    private String lastName;
+    private String dateOfBirth;
 }
