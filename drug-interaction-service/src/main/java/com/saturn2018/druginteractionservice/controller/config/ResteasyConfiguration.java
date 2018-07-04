@@ -1,6 +1,12 @@
 package com.saturn2018.druginteractionservice.controller.config;
 
-import com.saturn2018.druginteractionservice.controller.api.*;
+import com.saturn2018.druginteractionservice.controller.api.ChemicalResource;
+import com.saturn2018.druginteractionservice.controller.api.DemoResource;
+import com.saturn2018.druginteractionservice.controller.api.DrugResource;
+import com.saturn2018.druginteractionservice.controller.api.FoodResource;
+import com.saturn2018.druginteractionservice.controller.api.PersonResource;
+import com.saturn2018.druginteractionservice.controller.api.UserResource;
+
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +19,6 @@ public class ResteasyConfiguration extends ResourceConfig {
         register(DrugResource.class);
         register(FoodResource.class);
         register(PersonResource.class);
-        register(UserResource.class);
+     //   register(UserResource.class);
     }
 }
